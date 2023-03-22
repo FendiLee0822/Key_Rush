@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table_book_background"
+    tools:context=".rule_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/rule_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="32dp"
+                android:fontFamily="@font/abhayalibre_extrabold"
+                android:text="Rules" />
+
+            <Space
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/rule_close_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#00000000"
+                app:srcCompat="@drawable/close_icon" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/rule_123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:fontFamily="@font/abhayalibre_extrabold"
+                android:text="1.    The objective of the game is\n to swiftly  tap on a highlighted\n View in response to a challenge\n posed to the player.\n2.    The duration of each level is\n 5 seconds.\n 3.    If the player successfully\n touches the highlighted Views\n a considerable number of times,\n their  score will  be  among the\n top 25 highest scores, and they\n will be given the opportunity\n to input their name and score\n on the scoreboard."
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/rule_45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/abhayalibre_extrabold"
+                android:text="4.    If the  player  successfully\n touches the highlighted Views\n a considerable number of times,\n their  score will  be  among the\n top 25 highest scores, and they\n will be given the opportunity\n to input their name and score\n on the scoreboard.\n 5.    Level 1 - 4 Views\n         Level 2 - 9 Views\n         Level 3 - 16 Views\n         Level 4 - 25 Views\n         Level 5 - 36 Views"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

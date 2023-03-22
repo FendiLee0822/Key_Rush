@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobile_indi_assignment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobile_indi_assignment">
+        <activity
+            android:name=".level2_end"
+            android:parentActivityName=".home_page"
+            android:screenOrientation="landscape"
+            android:exported="true" />
+        <activity
+            android:name=".level1_end"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level4_end"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level3_end"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".setting_page"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".home_page"
+            android:screenOrientation="landscape"
+            android:exported="true" />
+        <activity
+            android:name=".splash_screen"
+            android:screenOrientation="landscape"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".level1"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".score_board"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".rule_page"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level4"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level3"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level2"
+            android:screenOrientation="landscape"
+            android:exported="true" />
+        <activity
+            android:name=".top25"
+            android:screenOrientation="landscape"
+            android:exported="true"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level5"
+            android:screenOrientation="landscape"
+            android:exported="true"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".level5_end"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".home_page" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:exported="true" />
+    </application>
+
+</manifest>
